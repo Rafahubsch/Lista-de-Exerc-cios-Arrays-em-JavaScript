@@ -1,0 +1,22 @@
+//🟢 Nível 1 — Básico
+//1. Lista de nomes
+let nomes = ["Heloisa", "Rafaela", "Marina", "Sophia", "Isabella"]
+console.log (alunos)
+console.log (alunos [0]);
+console.log (alunos[4]);
+//2. Lista de frutas
+let frutas = ["Maçã", "Jaca", "Mamão", "Uva"];
+console.log(frutas[0]);
+console.log(frutas[1]);
+console.log(frutas[2]);
+console.log(frutas[3]);
+//3. Acessando posições
+let cores = ["Azul", "Vermelho", "Verde", "Azul", "Cinza"];
+console.log(cores[0]);
+console.log(cores[2]);
+console.log(cores[4]);
+//4. Alterando um valor
+let produtosEx4 = ["Pastel", "Refrigerante", "Enroladinho de queijo"];
+produtosEx4[1] = "Refrigerante";
+console.log(produtosEx4);
+
