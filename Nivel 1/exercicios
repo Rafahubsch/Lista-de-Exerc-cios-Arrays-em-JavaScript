@@ -20,3 +20,4 @@ let produtosEx4 = ["Pastel", "Refrigerante", "Enroladinho de queijo"];
 produtosEx4[1] = "Refrigerante";
 console.log(produtosEx4);
 
+//-----
