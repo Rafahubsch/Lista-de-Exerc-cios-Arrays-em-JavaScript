@@ -1,12 +1,36 @@
 //🚀 Desafio final — Sistema simples da cantina
-//Crie um programa em JavaScript usando array para representar uma lista de produtos da cantina.
-//O programa deve:
-//Criar um array com pelo menos 5 produtos;
-//Mostrar todos os produtos usando for;
-//Adicionar um novo produto no final usando push();
-//Remover o primeiro produto usando shift();
-//Alterar um produto da lista usando índice;
-//Mostrar a lista atualizada;
-//Mostrar a quantidade final de produtos usando .length;
-//Procurar se existe o produto "Coxinha" na lista;
-//Exibir uma mensagem informando se o produto foi encontrado ou não.
+let cantina = ['Pastel', 'Suco', 'Coxinha', 'Chocolate', 'Pão de Queijo'];
+
+console.log('--- Produtos Iniciais da Cantina ---');
+for (let i = 0; i < cantina.length; i++) {
+    console.log(cantina[i]);
+}
+
+cantina.push('Bolo de Pote');
+
+cantina.shift();
+
+cantina[1] = 'Esfiha';
+
+console.log('--- Lista Atualizada da Cantina ---');
+for (let i = 0; i < cantina.length; i++) {
+    console.log(cantina[i]);
+}
+
+console.log('Quantidade final de produtos: ' + cantina.length);
+
+let buscaProduto = 'Coxinha';
+let existeProduto = false;
+
+for (let i = 0; i < cantina.length; i++) {
+    if (cantina[i] === buscaProduto) {
+        existeProduto = true;
+    }
+}
+
+if (existeProduto) {
+    console.log("O produto '" + buscaProduto + "' foi encontrado na lista!");
+} else {
+    console.log("O produto '" + buscaProduto + "' não foi encontrado na lista.");
+}
+
