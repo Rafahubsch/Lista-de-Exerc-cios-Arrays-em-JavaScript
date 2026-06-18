@@ -20,4 +20,7 @@ let produtosEx4 = ["Pastel", "Refrigerante", "Enroladinho de queijo"];
 produtosEx4[1] = "Refrigerante";
 console.log(produtosEx4);
 
-//-----
+//5. Quantidade de elementos
+// Exercício 5 — Quantidade de elementos
+let cidades = ["Valinhos", "Rio de Janeiro", "Curitiba", "Indaiatuba", "Vinhedo", "Osasco"];
+console.log("A lista possui " + cidades.length + " cidades.");
