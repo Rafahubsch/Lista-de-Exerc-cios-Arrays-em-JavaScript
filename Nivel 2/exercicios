@@ -1,0 +1,9 @@
+//🟡 Nível 2 — Manipulação de arrays
+// Exercício 6 — Adicionando no final
+let jogos = ["Roblox", "Mario", "The Sims"];
+jogos.push("Clash of Clans");
+console.log(jogos);
+//7. Adicionando no início
+let disciplinas = ["História", "Ingles", "Geografia"];
+
+
