@@ -8,21 +8,21 @@ let disciplinas = ["História", "Ingles", "Geografia"];
 disciplinas.unshift("Geografia");
 console.log(disciplinas);
 //8. Removendo o último item
-let cantinaEx10 = ["Salgado", "Suco", "Doce", "Pipoca"];
-cantinaEx10.pop();
-console.log(cantinaEx10);
+let cantina = ["Salgado", "Suco", "Doce", "Pipoca"];
+cantina.pop();
+console.log(cantina);
 //9. Removendo o primeiro item
-let alunosEX9 = ["Heloisa", "Rafaela", "Marina","Sophia"];
-alunosEx9.shift();
-console.log(alunosEx9);
+let alunos= ["Heloisa", "Rafaela", "Marina","Sophia"];
+alunos.shift();
+console.log(alunos);
 //10. Lista atualizada
 // Exercício 10 — Lista atualizada
-let produtosEx10 = ["Pastel", "Suco", "Coxinha", "Chocolate"];
-produtosEx10.push("Pão de Queijo");
-produtosEx10.shift();
-produtosEx10[1] = "Esfiha"; 
-console.log(produtosEx10);
-console.log("Quantidade de produtos: " + produtosEx10.length);
+let produtos = ["Pastel", "Suco", "Coxinha", "Chocolate"];
+produtos.push("Pão de Queijo");
+produtos.shift();
+produtos[1] = "Esfiha"; 
+console.log(produtos);
+console.log("Quantidade de produtos: " + produtos.length);
 
 
 
